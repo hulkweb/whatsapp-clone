@@ -1,0 +1,97 @@
+.sidebar{
+    flex: 0.30;
+    background-color: rgb(238, 232, 232);
+ 
+    display: flex;
+    flex-direction: column;
+
+}
+.sidebar__header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+/* .sidebar__header>.MuiAvatar-root{
+    font-size: 18px;
+} */
+.sidebar__header__right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.sidebar__search{
+    padding: 10px;
+    background-color: rgb(219, 218, 218);
+}
+.sidebar__search__inner{
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    background-color: #fff;
+    justify-content: center;
+}
+.sidebar__search__inner>svg{
+    padding: 5px;
+}
+.sidebar__search__inner>form{
+ flex: 1;
+}
+.sidebar__search__inner>form>input{
+    border: none;
+    padding: 10px;
+
+}
+.sidebar__search__inner>form>button{
+    display: none;
+}
+.sidebar__rooms{
+    background-color: #fff;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    overflow: scroll;
+   
+}
+.sidebar__rooms a,.sidebar__rooms a:hover{
+text-decoration:  none !important;
+color: black;
+
+}
+.sidebaar__single__room{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 10px;
+  
+}
+.sidebaar__single__room:hover{
+    background-color: rgb(245, 244, 244);
+}
+.sidebaar__single__room>svg{
+    padding: 10px;
+}
+.sidebaar__single__room>.sidebaar__single__room__detail{
+    font-display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: start;
+    padding-left: 10px;
+
+}
+.sidebaar__single__room>.sidebaar__single__room__detail>h2{
+
+font-size: 17px;
+margin: 0;
+}
+.sidebaar__single__room>.sidebaar__single__room__detail>p{
+    margin: 0;
+}
+.sidebaar__single__room>.sidebaar__single__room__detail>h3{
+
+    font-size: 17px;
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(212, 211, 211);
+    padding: 10px;
+    }
